@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraBooks</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botão">
+            <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburger container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link"> livros </a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link"> favoritos </a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link"> lançamentos </a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link"> Gêneros</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link"> Autores </a></li>
+            </ul>
+        <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+        <h1 class="container__titulo">Biblioteca da <b class="container__titulo--negrito">Emily</b></h1>
+    </div>
+
+    <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão">
+        <label for="opções-menu" class="opções__rotulo">
+            <li class="opções__item">Categorias</li>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link"> livros </a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link"> favoritos </a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link"> lançamentos </a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link"> Gêneros</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link"> Autores </a></li>
+        </ul>
+        <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">Minha estante </a></li>
+    </ul>
+
+    <div class="conteiner">
+        <a href="#"><img src="img/Favoritos.svg" alt="meus Favoritos" class="container__imagem container__imagem-transparente"></a>
+        <a href="#" class="container__link">
+            <img src="img/Compras.svg" alt="carrinho de Compras" class="container__imagem">
+            <p class="container__texto">Minha sacola</p>
+        </a>
+        <a href="#" class="container__link">
+            <img src="img/Usuario.svg" alt="meu perfil" class="container__imagem">
+            <p class="container__texto">Meu perfil</p>
+        </a>
+    </div>
+    </header>
+
+
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe que mundo quer conhecer?</h2>
+        <p class="banner__texto">Encontre em nossa estante uma infinidade de caminhos!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+
+
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+        <!-- Slider main container -->
+     <div class="carrossel__container">
+    <div class="swiper">
+
+          <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/acotar 1.svg" alt=" Livro corte de espinhos e rosas "></div>
+     <div class="swiper-slide"><img src="img/ahipoteedoamor.svg" alt=" Livro a hipotese do amor"></div>
+     <div class="swiper-slide"><img src="img/bibliotecadameia-noite.svg" alt=" Livro biblioteca da meia-noite"></div>
+     <div class="swiper-slide"><img src="img/conectadas.svg" alt=" Livro conectadas"></div>
+     <div class="swiper-slide"><img src="img/Coraline.svg" alt=" Livro coraline"></div>
+     <div class="swiper-slide"><img src="img/jogodeheranca1.svg" alt=" Livro jogos de herenca"></div>
+     <div class="swiper-slide"><img src="img/jogosdeheranca2 1.svg" alt=" Livro jogos de heranca 2"></div>
+     <div class="swiper-slide"><img src="img/jogosdeheranca3 1.svg" alt=" Livro jogos de heranca 3"></div>
+     <div class="swiper-slide"><img src="img/mdapbg1.svg" alt=" Livro manual de assassninato para boas garotas"></div>
+     <div class="swiper-slide"><img src="img/mdapbg2.svg" alt=" Livro manual de assassninato para boas garotas"></div>
+     <div class="swiper-slide"><img src="img/mdpbg3.svg" alt=" Livro manual de assassninato para boas garotas"></div>
+     <div class="swiper-slide"><img src="img/Os sete maridos de Evelyn Hugo.svg" alt=" Livro os sete maridos de evelyn hugo "></div>
+     <div class="swiper-slide"><img src="img/pequenoprincipe.svg" alt=" Livro o pequeno principe"></div>
+     <div class="swiper-slide"><img src="img/pollyanna.svg" alt=" Livro pollyanna"></div>
+     <div class="swiper-slide"><img src="img/vbsa.svg" alt=" Livro vermelh branco e sangue azul"></div>
+     <div class="swiper-slide"><img src="img/verity.svg" alt=" Livro verity"></div>
+    </div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+     
+    </div>
+
+
+    <div class="card   card__livraria">
+        <!-- 1 linha-->
+        <div class="card__descrição">
+            <!--1 coluna-->
+            <div class="descrição">
+                <h2 class="descrição__titulo">Nossa livraria</h2>
+                <p class="descrição__texto">No vasto mundo digital, uma livraria online é um verdadeiro paraíso para os amantes dos livros. Com uma navegação simples e intuitiva, os leitores podem explorar um extenso catálogo, que vai de lançamentos frescos a clássicos atemporais. A plataforma oferece resenhas, recomendações personalizadas e promoções atrativas, tornando a busca pela leitura perfeita rápida e agradável. Com apenas alguns cliques, os livros chegam diretamente à sua casa, transformando cada compra em uma nova aventura literária no conforto do lar.</p>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+<section class="carrossel">
+    <h2 class="carrossel__titulo">Favoritos</h2>
+    <!-- Slider main container -->
+
+   <div class="carrossel__container">
+<div class="swiper">
+
+      <!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<!-- Additional required wrapper -->
+<div class="swiper-wrapper">
+  <!-- Slides -->
+  <div class="swiper-slide"><img src="img/acotar 1.svg" alt=" Livro corte de espinhos e rosas "></div>
+  <div class="swiper-slide"><img src="img/bibliotecadameia-noite.svg" alt=" Livro biblioteca da meia-noite"></div>
+  <div class="swiper-slide"><img src="img/Coraline.svg" alt=" Livro coraline"></div>
+  <div class="swiper-slide"><img src="img/jogodeheranca1.svg" alt=" Livro jogos de herenca"></div>
+  <div class="swiper-slide"><img src="img/mdapbg1.svg" alt=" Livro manual de assassninato para boas garotas"></div>
+  <div class="swiper-slide"><img src="img/pollyanna.svg" alt=" Livro pollyanna"></div>
+  <div class="swiper-slide"><img src="img/vbsa.svg" alt=" Livro vermelh branco e sangue azul"></div>
+  <div class="swiper-slide"><img src="img/verity.svg" alt=" Livro verity"></div>
+
+</div>
+
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+
+</div>
+
+
+<div class="card">
+    <!-- 1 linha-->
+    <div class="card__descrição">
+        <!--1 coluna-->
+        <div class="descrição">
+            <img class="descrição__estrelas" src="img/Estrelinhas.svg" alt="Estrelas de avaliação">
+            <h3 class="descrição__titulo">Autora do Mês</h3>
+            <h2 class="descrição__titulo-livro">Holly Jackson</h2>
+            <p class="descrição__texto">Holly Jackson é uma autora britânica que se destacou com seu sucesso "A Good Girl's Guide to Murder". Lançado em 2019, o livro combina mistério e suspense, cativando leitores com sua trama intrigante e personagens profundos. Conhecida por sua habilidade em criar histórias envolventes e cheias de tensão, Jackson se consolidou como uma importante voz na literatura jovem-adulta. Seus trabalhos seguem recebendo elogios pela narrativa criativa e emocionante.</p>
+        </div>
+        <!--2 coluna-->
+        <img src="img/autora.jpg" alt="" class="descrição__imagem">
+    </div>
+
+
+    <!--2 linha -->
+    <div class="card__botões">
+        <!--1 coluna-->
+        <ul class="botões">
+            <li class="botões__item"><img src="img/Favoritos.svg" alt="favoritar lirvro"></li>
+            <li class="botões__item"> <img src="img/Compras.svg" alt="adicinar no carrinho de compras"></li>
+        </ul>
+        <!--2 coluna-->
+        <a href="#" class="botões__ancora">Saiba mais</a>
+    </div>
+</div>
+   </div>
+
+
+</section>
+
+<section class="tópicos">
+    <h2 class="tópicos__titulo">Gêneros favoritos</h2>
+    <ul class="tópicos__lista">
+        <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Romance</a>
+        </li>
+
+        <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Terror</a>
+        </li>
+
+        <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Thriller</a>
+        </li>
+
+        <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Jovem adulto</a>
+        </li>
+
+    </ul>
+</section>
+
+
+<section class="contato">
+    <div class="contato__descrição">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+    </div>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+</section>
+
+<hr/>
+
+<footer class="rodapé">
+    <h2 class="rodapé__titulo">Emily's productions</h2>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+       spaceBetween: 10 ,
+       slidesPerView: 3,
+       pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets' ,
+       },
+
+    });
+</script>
+
+
+</body>
+
+
+</html>
