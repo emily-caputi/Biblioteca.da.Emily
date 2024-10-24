@@ -143,6 +143,10 @@
         -webkit-text-fill-color: var(--branco) ;
         text-decoration: none;
     }
+
+    .opções__botão{
+        display: none;
+    }
   }
 
 
